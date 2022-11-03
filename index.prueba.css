@@ -7,6 +7,48 @@
     font-family:'Oswald'- sans-serif;
 }
 
+/*configuraciones generales*/
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body  html{
+        overflow-x:hidden;
+}
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+
+/*final de configuraciones grales*/
+
+/*inicio de navbar*/
+.navbar{
+    position:absolute;
+    top:0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content:space-between ;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.nav-links{
+display: flex;
+align-items: center;
+}
+
+/*separa los items de la barra de navegacion*/
+.nav-links li{
+margin:0 30px;
+}
+/*final de navbar*/
+
 /*header*/
 
 header{
@@ -47,4 +89,55 @@ header{
     background: #fc036b;
     border-radius: 30px;
     color:whitesmoke;
+    text-decoration: none;
+}
+/*final de header*/
+
+/*segunda parte de la pagina*/
+.title{
+    text-align: center;
+    font-size: 4vmin ;
+    color: rgb(73,73,126);
+}
+
+.row{
+    display: flex;
+    align-items:center ;
+    width: 100%;
+    justify-content:space-between ;
+}
+
+.row .col{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+.events .row{
+    margin-top: 50px ;
+}
+h4{
+    font-size: 3vmin ;
+    color: #484872;
+}
+p{
+    color: #707070;
+    padding: 0px 40px ;
+}
+.ctn2{
+    padding: 15px 5px;
+    padding-left:5px;
+    margin:20px auto ;
+    background:#fc036b ;
+    border-radius: 30px ;
+    color: whitesmoke;
+}
+.events .ctn2{
+    margin-top: 20px;
+}
+
+.img{
+    height:450px;
+    width: 500px;
+    padding-left: 100px ;
+
 }
